@@ -1,0 +1,131 @@
+nav ul li{
+    float: right;
+    font-size: 30px;
+    list-style-type: none;
+    text-align: center;
+}
+ul li a {
+    display: block;
+    padding: 18px 16px ;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    
+}
+    nav{
+    
+    width: 100%; 
+
+}
+ul li a:hover{
+    background:rgb(20, 173, 211);
+    color: black;
+    font-style: italic;
+}
+
+#logo{
+    width: 90%;
+}
+h1{
+    text-align: center;
+    color: rgb(87, 39, 4);
+    text-decoration:  underline overline; 
+    font-style: italic;
+    text-transform: capitalize;
+    text-shadow: 3px 3px rgb(24, 18, 1);
+    font-size: 70px; 
+}
+#logo3{
+    width: 400px;
+    height: 480px; 
+}
+#logo2{
+    width: 500px;
+    height: 480px;  
+}
+#logo4{
+    width: 420px;
+    height: 480px ;
+}
+.last{
+    display:block;
+    float: right;
+    font-size: 26px;
+    text-align: center;
+width: 1500px;
+}
+.diapo{
+    width: 1500px;
+    height: 700px;
+    height: 500px;
+    border: 3px solid #333;
+    box-shadow: 3px rgb(99, 41, 15);
+    background-image: url("bora\ bora1.jpg");
+
+    -webkit-animation-name: diapo1;
+    -webkit-animation-duration: 9s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+     
+   -moz-animation-name: diapo1;
+    -moz-animation-duration: 9s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+
+    animation-name: diapo1;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@-webkit-keyframes diapo1{
+    0%{
+        background-image: url("bora\ bora1.jpg");}
+        33%{background-image: url("fond\ tahiti.jfif");}
+        66%{background-image: url("peuple.jfif");}
+        
+}
+@-moz-keyframes diapo1{
+    0%{ background-image: url("bora\ bora1.jpg");}
+        33%{background-image: url("fond\ tahiti.jfif");}
+        66%{background-image: url("peuple.jfif");}
+        
+         }
+         @keyframes diapo1{
+            0%{
+                background-image: url("bora\ bora1.jpg");}
+                33%{background-image: url("fond\ tahiti.jfif");}
+                66%{background-image: url("peuple.jfif");}
+                
+     }
+     h2{
+         font-size: 20px;
+         font-family: cursive;
+         font-style: italic;
+         text-shadow: #333;
+         color: rgb(28, 17, 54);
+         border: #333;
+         border-radius: 30%; }
+video{
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.last{
+    font-size: 20px;
+         font-family: cursive;
+         font-style: italic;
+         text-decoration: rgb(11, 12, 107);
+         text-shadow: #333;
+         color: rgb(28, 17, 54)
+}
+.goodbye{
+    width: auto;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration:rgb(1, 8, 14) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

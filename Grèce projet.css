@@ -1,0 +1,55 @@
+#style{
+    margin-top: auto;
+text-align: center;
+    font-size: 55px;
+    color: rgba(24, 96, 204, 0.938);
+}
+.body   {
+    background-image: url("fondgrece.jpg.jpg");   
+    background-attachment: fixed; 
+}
+.legende {
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    color: black;
+}
+#temple12{
+    width: 700px;
+    display: block;
+    float: right;
+    margin-right: auto;
+}
+#video{
+    float: right;
+    width: 650px;
+}
+#santo{
+    width: 600px;
+    height: 500px;
+}
+nav ul li{
+    float: right;
+    font-size: 30px;
+    list-style-type: none;
+    text-align: center;
+}
+ul li a {
+    display: block;
+    padding: 18px 16px ;
+    text-decoration: none;
+    color: black;
+    
+}
+    nav{
+    background-color: rgb(8, 8, 8);
+    width: 100%; 
+
+}
+ul li a:hover{
+    background: rgb(132, 169, 170);
+    color: black;
+}
+
+
+

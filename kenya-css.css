@@ -1,0 +1,95 @@
+nav ul li{
+    float: right;
+    font-size: 30px;
+    list-style-type: none;
+    text-align: center;
+}
+ul li a {
+    display: block;
+    padding: 18px 16px ;
+    text-decoration: none;
+}
+    nav{
+    background-color: rgb(235, 143, 115);
+    position: fixed;
+    width: 100%; 
+
+}
+ul li a:hover{
+    background:rgb(233, 231, 228);
+    color: rgb(44, 21, 5);
+    
+}
+h3,h2{
+    font-family: cursive;
+    font-size: 25px;
+    font-style: unset;
+    text-decoration: aliceblue;
+    text-overflow: clip;
+    text-shadow: 4px 4px rgb(245, 245, 225);
+
+}
+#logo{
+    max-width: 100%;
+ max-height: 100%;
+ object-fit: contain;
+}
+.logo4{
+    padding: 9%;
+    margin-top:1px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+#min{
+    width: 700px;
+    border-radius: 20px;
+    margin-left: auto;
+    border-radius: 20px;
+    box-shadow: 7px 7px black;
+}
+#left{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 7px 7px black;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    font-style: italic;
+    text-transform: capitalize;
+    text-shadow: 6px 6px rgb(141, 105, 89);
+    text-decoration: overline underline rgb(99, 80, 56) ;
+}
+#min{
+    font-family: cursive;
+    font-size: 23px;
+    font-style: unset;
+    text-decoration: aliceblue;
+    text-overflow: clip;
+    text-shadow: 4px 4px rgb(245, 245, 225);
+}
+#premier{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+text-decoration: overline underline rgba(97, 60, 4, 0.658);
+}
+.description{
+    text-align: right;
+    font-size: 30px;
+    font-family: cursive;
+
+}
+
